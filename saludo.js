@@ -2,7 +2,6 @@
  
 function saludar(){
 	var saludo="";
-debugger;
 var tiempo = new Date().getHours();
 if (tiempo < 12){ 
 	saludo="Buenos dias!";
