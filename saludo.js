@@ -9,7 +9,7 @@ if (tiempo < 12){
 	saludo="buenas tardes!"; 
 
   }else{ 
-  	saludo="buenas noches!";
+  	saludo="buenas noches voy a descansar!";
   }
   document.getElementById("saludo").innerHTML = saludo;
 }
