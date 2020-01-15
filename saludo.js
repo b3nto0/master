@@ -2,7 +2,6 @@
  
 function saludar(){
 	var saludo="";
-debugger;
 var tiempo = new Date().getHours();
 if (tiempo < 12){ 
 	saludo="Buenos dias!";
@@ -11,6 +10,6 @@ if (tiempo < 12){
 
   }else{ 
   	saludo="buenas noches!";
-  }asifi09eosgfbshipfobhwervibfn8 bgnv8eorgh	iwvqvkuuggyudvuidsfuibhuicdg78gqurfjhnushg dweyfgv
+  }
   document.getElementById("saludo").innerHTML = saludo;
 }
